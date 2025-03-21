@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JavaScript Lab</title>
-  </head>
+    <title>Dog Form</title>
+</head>
+<body>
 
-  <body>
+    <h2>Add a Dog</h2>
+    <form id="dogForm">
+        <label> Dog Name: 
+            <input type="text" name="dogName" id="dogName" required />
+        </label>
+        <br />
+        <label> Dog Breed: 
+            <input type="text" name="dogBreed" id="dogBreed" required />
+        </label>
+        <br />
+        <input type="submit" id="submit" value="Submit" />
+    </form>
+
+    <p id="responseMessage"></p>
+
     <script src="index.js"></script>
-  </body>
 
+</body>
 </html>
